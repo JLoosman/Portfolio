@@ -13,7 +13,7 @@
 </div>
 <div class="overlay"></div>
 <div class="grid">
-  {#each Array(2000) as _, i}
+  {#each Array(1500) as _, i}
     <Point />
   {/each}
 </div>
@@ -60,9 +60,8 @@
   .text h1 {
     user-select: none;
     color: #eee;
-    font-size: 120px;
+    font-size: 100px;
     font-family: Aldrich, sans-serif;
     z-index: 1;
   }
 </style>
-

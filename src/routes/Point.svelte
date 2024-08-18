@@ -1,6 +1,6 @@
 <script>
   let size = Math.floor(Math.random() * 1.5) + 1;
-  let animationTime = Math.random() * 5 + 5;
+  let animationTime = Math.random() * 5 + 4;
 
   setInterval(() => {
     size = Math.floor(Math.random() * 1.5) + 1;
@@ -16,8 +16,8 @@
 
 <style>
   .box {
-    height: 32px;
-    width: 32px;
+    height: 38px;
+    width: 38px;
   }
   .block {
     margin: 15px;
