@@ -19,11 +19,16 @@
 </div>
 
 <section>
-  <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero praesentium
-    rerum deserunt vero ducimus alias animi, iste totam esse similique.
-    Quibusdam eligendi incidunt placeat eum libero ab voluptatibus, quas non.
-  </p>
+  <h2>Projekte</h2>
+  <a href="/projekte">Hier klicken!</a>
+</section>
+<section class="left">
+  <h2>Skills</h2>
+  <a href="/projekte">Hier klicken!</a>
+</section>
+<section>
+  <h2>Dokumente & Kontakt</h2>
+  <a href="/projekte">Hier klicken!</a>
 </section>
 
 <style>
@@ -63,5 +68,39 @@
     font-size: 100px;
     font-family: Aldrich, sans-serif;
     z-index: 1;
+  }
+
+  section {
+    padding: 20px 250px;
+    height: 60%;
+    width: 100%;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+
+  section h2 {
+    color: #eee;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  section a {
+    text-decoration: none;
+    color: #111;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  section a:hover {
+    background-color: #ccc;
+  }
+
+  .left {
+    align-items: start;
   }
 </style>
