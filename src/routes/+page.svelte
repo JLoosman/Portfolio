@@ -24,11 +24,11 @@
 </section>
 <section class="left">
   <h2>Skills</h2>
-  <a href="/projekte">Hier klicken!</a>
+  <a href="/skills">Hier klicken!</a>
 </section>
 <section>
   <h2>Dokumente & Kontakt</h2>
-  <a href="/projekte">Hier klicken!</a>
+  <a href="/kontakt">Hier klicken!</a>
 </section>
 
 <style>
@@ -92,12 +92,13 @@
     text-decoration: none;
     color: #111;
     background-color: #eee;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 10px;
   }
 
   section a:hover {
-    background-color: #ccc;
+    color: #eee;
+    background-color: #333;
   }
 
   .left {
