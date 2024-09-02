@@ -27,7 +27,7 @@
   <a href="/skills">Hier klicken!</a>
 </section>
 <section>
-  <h2>Dokumente & Kontakt</h2>
+  <h2>Kontakt</h2>
   <a href="/kontakt">Hier klicken!</a>
 </section>
 
@@ -98,7 +98,7 @@
 
   section a:hover {
     color: #eee;
-    background-color: #333;
+    background-color: #999;
   }
 
   .left {
