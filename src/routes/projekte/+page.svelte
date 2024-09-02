@@ -78,7 +78,7 @@
   <div class="project last">
     <div class="title">
       <h2>Web Hosting</h2>
-      <a href="https://github.com/JLoosman/Spotify-Music-Finder">
+      <a href="https://github.com/JLoosman/Portfolio">
         <svg
           width="30px"
           height="30px"
