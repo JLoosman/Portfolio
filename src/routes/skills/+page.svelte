@@ -127,4 +127,11 @@
     border: 1px solid #fff;
     color: #fff;
   }
+
+  @media only screen and (max-width: 990px) {
+    table {
+      width: 70vw;
+      table-layout: auto;
+    }
+  }
 </style>

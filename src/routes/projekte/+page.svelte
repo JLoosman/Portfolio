@@ -139,6 +139,7 @@
     justify-content: center;
     align-items: center;
   }
+
   h1 {
     color: #eee;
     font-size: 100px;
@@ -161,7 +162,7 @@
     cursor: pointer;
     width: 95%;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 
   .projects {
@@ -199,5 +200,18 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 790px) {
+    .projects {
+      padding: 50px 0;
+    }
+    .project {
+      width: clamp(80vw, 50vw, 700px);
+    }
+
+    .images {
+      flex-direction: column;
+    }
   }
 </style>
