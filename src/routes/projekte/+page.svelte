@@ -74,6 +74,10 @@
       Design-Guidelines beachten müsste. Finde ich dafür in der Zukunft Zeit,
       werde ich dies allerdings mit Sicherheit erledigen.
     </p>
+    <div class="images">
+      <img src="./SpotifyApp.png" alt="A screenshot of my application" />
+      <img src="./SpotifyApp2.png" alt="A screenshot of my application" />
+    </div>
   </div>
   <div class="project last">
     <div class="title">
@@ -135,6 +139,10 @@
     text-align: center;
   }
 
+  img {
+    width: 49%;
+  }
+
   .projects {
     padding: 50px 200px;
     background-color: #000;
@@ -162,5 +170,11 @@
     height: 3px;
     width: 100%;
     background-color: #eee;
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 </style>
