@@ -10,7 +10,7 @@
   <div class="project">
     <div class="title">
       <h2>Todo</h2>
-      <a href="https://jloosman.github.io/todo-svelte/">
+      <a href="https://jloosman.github.io/todo-svelte/" target="_blank">
         <svg
           width="30px"
           height="30px"
@@ -44,7 +44,10 @@
   <div class="project">
     <div class="title">
       <h2>Music Finder</h2>
-      <a href="https://github.com/JLoosman/Spotify-Music-Finder">
+      <a
+        href="https://github.com/JLoosman/Spotify-Music-Finder"
+        target="_blank"
+      >
         <svg
           width="30px"
           height="30px"
@@ -86,11 +89,18 @@
         <img src="./SpotifyApp2.png" alt="A screenshot of my application" />
       </Lightbox>
     </div>
+    <p>
+      Wie Sie hier sehen können, basiert meine Applikation auf einem simplen
+      Design inspiriert von Tinder, um dem Nutzer neue Songs und Künstler
+      vorzuschlagen. Einerseits werden einem die momentan bekanntesten Songs
+      vorgeschlagen, andererseit werden Liedervorschläge auf Grund Ihrer
+      Lieblingssongs generiert.
+    </p>
   </div>
   <div class="project last">
     <div class="title">
       <h2>Web Hosting</h2>
-      <a href="https://github.com/JLoosman/Portfolio">
+      <a href="https://github.com/JLoosman/Portfolio" target="_blank">
         <svg
           width="30px"
           height="30px"
@@ -112,7 +122,7 @@
     </div>
     <div class="line"></div>
     <p>
-      Um diese Portfolio-Seite für sie verfügbar zu machen, miete ich einen VPS
+      Um diese Portfolio-Seite für Sie verfügbar zu machen, miete ich einen VPS
       auf der Cloud Plattform DigitalOcean. Darauf läuft ein Ubuntu Server,
       welcher ich als Webserver eingerichtet habe. In der Vergangenheit habe ich
       dieses von Hand mit Nginx eingerichtet, nun nutze ich jedoch ein Tool
