@@ -1,3 +1,7 @@
+<script>
+  import { Lightbox } from "svelte-lightbox";
+</script>
+
 <section class="hero">
   <h1>Projekte</h1>
 </section>
@@ -75,8 +79,12 @@
       werde ich dies allerdings mit Sicherheit erledigen.
     </p>
     <div class="images">
-      <img src="./SpotifyApp.png" alt="A screenshot of my application" />
-      <img src="./SpotifyApp2.png" alt="A screenshot of my application" />
+      <Lightbox>
+        <img src="./SpotifyApp.png" alt="A screenshot of my application" />
+      </Lightbox>
+      <Lightbox>
+        <img src="./SpotifyApp2.png" alt="A screenshot of my application" />
+      </Lightbox>
     </div>
   </div>
   <div class="project last">
@@ -140,7 +148,10 @@
   }
 
   img {
-    width: 49%;
+    cursor: pointer;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
   }
 
   .projects {
@@ -175,6 +186,8 @@
   .images {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 </style>
