@@ -6,3 +6,17 @@
   box-sizing: border-box;
   font-family: Aldrich, sans-serif;
 }
+
+body {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 790px) {
+    h1 {
+      font-size: 60px !important;
+    }
+    h2 {
+      font-size: 30px !important;
+    }
+  }
+

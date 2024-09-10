@@ -39,7 +39,6 @@
     flex-wrap: wrap;
     overflow: hidden;
     background-color: #000;
-    /* could also be #111, gives kind of spotlight effect*/
   }
 
   .overlay {
@@ -68,10 +67,11 @@
     font-size: 100px;
     font-family: Aldrich, sans-serif;
     z-index: 1;
+    text-align: center;
   }
 
   section {
-    padding: 20px 250px;
+    padding: 20px 20%;
     height: 60%;
     width: 100%;
     background-color: #000;
