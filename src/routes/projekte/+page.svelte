@@ -32,13 +32,13 @@
     </div>
     <div class="line"></div>
     <p>
-      Für das Informatik Modul M294 mussten wir mithilfe von JavaScript eine
+      Für das Informatik-Modul M294 mussten wir mithilfe von JavaScript eine
       CRUD-Webapplikation schreiben. Um dies möglichst effizient zu erledigen,
-      habe ich mir vorgenommen ein JavaScript-Framework zu benutzen. Entschieden
-      habe ich mir schlussendlich für Svelte, welches ich dann auch in kürzester
-      Zeit mit angeeignet habe. Die App ist im ganzen nicht Sonderlich
-      kompliziert, ist meiner Meinung nach aber trotzdem eine schöne App
-      geworden welche ideal funktioniert.
+      habe ich mir vorgenommen, ein JavaScript-Framework zu benutzen.
+      Entschieden habe ich mich schlussendlich für Svelte, welches ich mir dann
+      auch in kürzester Zeit angeeignet habe. Die App ist insgesamt nicht
+      sonderlich kompliziert, ist meiner Meinung nach aber trotzdem eine schöne
+      App geworden, welche ideal funktioniert.
     </p>
   </div>
   <div class="project">
@@ -69,15 +69,15 @@
     </div>
     <div class="line"></div>
     <p>
-      Music Finder ist eine Idee welche ich privat unbedingt ausprobieren
-      wollte. Ich bediene mich dabei an der Spotify API um dem User, basierend
-      auf seinen Interessen, neue Song- und Künstlervorschläge zu generieren.
-      Dafür benutzt habe ich das Metaframework Sveltekit, um für meine App ein
-      Backend zu schreiben. Dies ist das erste Mal das ich in solchen Ausmassen
-      mit APIs gearbeitet habe, und ich hatte zuerst meine Probleme mit der
-      Authentifikation, welche jedoch nun wunderbar funktioniert. Momentan kann
+      Music Finder ist eine Idee, die ich privat unbedingt ausprobieren wollte.
+      Ich bediene mich dabei der Spotify API, um dem User basierend auf seinen
+      Interessen neue Song- und Künstlervorschläge zu generieren. Dafür habe ich
+      das Metaframework SvelteKit benutzt, um für meine App ein Backend zu
+      erstellen. Dies ist das erste Mal, dass ich in solchem Umfang mit APIs
+      gearbeitet habe, und ich hatte zunächst Probleme mit der
+      Authentifizierung, die jedoch nun wunderbar funktioniert. Momentan kann
       ich diese Applikation leider noch nicht hosten, da ich bei Spotify zuerst
-      eine Veröffentlichung beantragen müsste, und ich dafür noch einige
+      eine Veröffentlichung beantragen müsste und dafür noch einige
       Design-Guidelines beachten müsste. Finde ich dafür in der Zukunft Zeit,
       werde ich dies allerdings mit Sicherheit erledigen.
     </p>
@@ -90,10 +90,10 @@
       </Lightbox>
     </div>
     <p>
-      Wie Sie hier sehen können, basiert meine Applikation auf einem simplen
-      Design inspiriert von Tinder, um dem Nutzer neue Songs und Künstler
-      vorzuschlagen. Einerseits werden einem die momentan bekanntesten Songs
-      vorgeschlagen, andererseit werden Liedervorschläge auf Grund Ihrer
+      Wie Sie hier sehen können, basiert meine Applikation auf einem einfachen
+      Design, inspiriert von Tinder, um dem Nutzer neue Songs und Künstler
+      vorzuschlagen. Einerseits werden die momentan bekanntesten Songs
+      vorgeschlagen, andererseits werden Liedervorschläge auf Grundlage Ihrer
       Lieblingssongs generiert.
     </p>
   </div>
@@ -123,11 +123,11 @@
     <div class="line"></div>
     <p>
       Um diese Portfolio-Seite für Sie verfügbar zu machen, miete ich einen VPS
-      auf der Cloud Plattform DigitalOcean. Darauf läuft ein Ubuntu Server,
-      welcher ich als Webserver eingerichtet habe. In der Vergangenheit habe ich
-      dieses von Hand mit Nginx eingerichtet, nun nutze ich jedoch ein Tool
-      namens Coolify, welches das hosten von Webseiten und Webapplikationen
-      deutlich vereinfacht.
+      auf der Cloud-Plattform DigitalOcean. Darauf läuft ein Ubuntu-Server, den
+      ich als Webserver eingerichtet habe. In der Vergangenheit habe ich diesen
+      von Hand mit Nginx eingerichtet, nun nutze ich jedoch ein Tool namens
+      Coolify, welches das Hosten von Webseiten und Webapplikationen deutlich
+      vereinfacht.
     </p>
   </div>
 </section>
