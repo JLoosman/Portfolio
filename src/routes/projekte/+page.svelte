@@ -1,5 +1,15 @@
 <script>
   import { Lightbox } from "svelte-lightbox";
+  import { reveal } from "svelte-reveal";
+
+  let revealConfig = {
+    preset: "slide",
+    y: 40,
+    x: 0,
+    opacity: 0,
+    duration: 600,
+    blur: 0,
+  };
 </script>
 
 <section class="hero">
@@ -8,7 +18,7 @@
 
 <section class="projects">
   <div class="project">
-    <div class="title">
+    <div use:reveal={revealConfig} class="title">
       <h2>Todo</h2>
       <a href="https://jloosman.github.io/todo-svelte/" target="_blank">
         <svg
@@ -30,8 +40,8 @@
         >
       </a>
     </div>
-    <div class="line"></div>
-    <p>
+    <div use:reveal={revealConfig} class="line"></div>
+    <p use:reveal={revealConfig}>
       Für das Informatik-Modul M294 mussten wir mithilfe von JavaScript eine
       CRUD-Webapplikation schreiben. Um dies möglichst effizient zu erledigen,
       habe ich mir vorgenommen, ein JavaScript-Framework zu benutzen.
@@ -42,7 +52,7 @@
     </p>
   </div>
   <div class="project">
-    <div class="title">
+    <div use:reveal={revealConfig} class="title">
       <h2>Music Finder</h2>
       <a
         href="https://github.com/JLoosman/Spotify-Music-Finder"
@@ -67,8 +77,8 @@
         >
       </a>
     </div>
-    <div class="line"></div>
-    <p>
+    <div use:reveal={revealConfig} class="line"></div>
+    <p use:reveal={revealConfig}>
       Music Finder ist eine Idee, die ich privat unbedingt ausprobieren wollte.
       Ich bediene mich dabei der Spotify API, um dem User basierend auf seinen
       Interessen neue Song- und Künstlervorschläge zu generieren. Dafür habe ich
@@ -81,7 +91,7 @@
       Design-Guidelines beachten müsste. Finde ich dafür in der Zukunft Zeit,
       werde ich dies allerdings mit Sicherheit erledigen.
     </p>
-    <div class="images">
+    <div use:reveal={revealConfig} class="images">
       <Lightbox>
         <img src="./SpotifyApp.png" alt="A screenshot of my application" />
       </Lightbox>
@@ -89,7 +99,7 @@
         <img src="./SpotifyApp2.png" alt="A screenshot of my application" />
       </Lightbox>
     </div>
-    <p>
+    <p use:reveal={revealConfig}>
       Wie Sie hier sehen können, basiert meine Applikation auf einem einfachen
       Design, inspiriert von Tinder, um dem Nutzer neue Songs und Künstler
       vorzuschlagen. Einerseits werden die momentan bekanntesten Songs
@@ -98,7 +108,7 @@
     </p>
   </div>
   <div class="project last">
-    <div class="title">
+    <div use:reveal={revealConfig} class="title">
       <h2>Web Hosting</h2>
       <a href="https://github.com/JLoosman/Portfolio" target="_blank">
         <svg
@@ -120,8 +130,8 @@
         >
       </a>
     </div>
-    <div class="line"></div>
-    <p>
+    <div use:reveal={revealConfig} class="line"></div>
+    <p use:reveal={revealConfig}>
       Um diese Portfolio-Seite für Sie verfügbar zu machen, miete ich einen VPS
       auf der Cloud-Plattform DigitalOcean. Darauf läuft ein Ubuntu-Server, den
       ich als Webserver eingerichtet habe. In der Vergangenheit habe ich diesen
