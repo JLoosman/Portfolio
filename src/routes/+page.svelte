@@ -2,6 +2,16 @@
   import typer from "typer-js";
   import { onMount } from "svelte";
   import Point from "./Point.svelte";
+  import { reveal } from "svelte-reveal";
+
+  let revealConfig = {
+    preset: "slide",
+    y: 40,
+    x: 0,
+    opacity: 0,
+    duration: 600,
+    blur: 0,
+  };
 
   onMount(() => {
     typer(".text h1", { min: 20, max: 350 }).line("Jesiah Loosman");
@@ -13,22 +23,22 @@
 </div>
 <div class="overlay"></div>
 <div class="grid">
-  {#each Array(1500) as _, i}
+  {#each Array(1500) as _}
     <Point />
   {/each}
 </div>
 
 <section>
-  <h2>Projekte</h2>
-  <a href="/projekte">Hier klicken!</a>
+  <h2 use:reveal={revealConfig}>Projekte</h2>
+  <a use:reveal={revealConfig} href="/projekte">Hier klicken!</a>
 </section>
 <section class="left">
-  <h2>Skills</h2>
-  <a href="/skills">Hier klicken!</a>
+  <h2 use:reveal={revealConfig}>Skills</h2>
+  <a use:reveal={revealConfig} href="/skills">Hier klicken!</a>
 </section>
 <section>
-  <h2>Kontakt</h2>
-  <a href="/kontakt">Hier klicken!</a>
+  <h2 use:reveal={revealConfig}>Kontakt</h2>
+  <a use:reveal={revealConfig} href="/kontakt">Hier klicken!</a>
 </section>
 
 <style>
